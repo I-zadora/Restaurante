@@ -1,0 +1,117 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(249, 249, 248); 
+    overflow-x: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    background-color: rgb(249, 249, 248); 
+    position: fixed;
+}
+#logo{
+    font-family: 'Cinzel', serif;
+    font-size: 26px;
+}
+
+#menu{
+    list-style: none;
+    display:flex;   
+    justify-content: space-around;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+
+#menu li a{
+    color: #000;
+    text-decoration: none;
+    padding-left: 5vw;
+}
+a:hover{
+    color:#8B98A7;
+
+}
+main{
+    padding-top: 14vh;
+    background-image: url(../images/image-bg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 90vw;
+    height: 100vh;
+   
+}  
+.text{
+    padding-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    color:#ffff;
+}
+#first-text{
+    font-size: 70px;
+    font-family: 'Cinzel', serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+#second-text{
+    font-size: 20px;
+    letter-spacing: 10px;
+
+}
+button{
+    height: 7vh;
+    width: 10vw;
+    margin-top: 3vh;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: solid 1px #ffff;
+    color: #ffff;
+    font-size: 16px;
+}
+
+footer{  
+    padding: 5vh;  
+    width:fit-content;
+    height: 14vh;
+    
+
+}
+
+
+#list-footer{
+    padding: 2vh;
+    width: fit-content;
+    display: flex;
+    list-style: none;
+}
+i{
+    width: 40px;
+    color: #0a0b0c;
+} 
+#text-footer{
+    width: fit-content;
+}
+.chat{
+    display: flex;
+    position: fixed;
+    width:30vw;
+    height:9vh;
+    font-size: 1.8rem;
+    bottom:15px;
+    right: 20px;
+    background-color: rgb(187, 151, 168);
+    color: #ffff;
+    font-family: 'Cinzel', serif; 
+    font-size: 20px;
+}
